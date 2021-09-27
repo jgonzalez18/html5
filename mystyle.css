@@ -1,0 +1,132 @@
+@charset "UTF-8";
+/* CSS Document */
+@media(min-width:468px) {  
+  .container-1 {
+    display: flex;
+    /*
+      align-items:flex-end;
+      align-items:center;
+	  */
+	  align-items:flex-start;
+      flex-direction:column;
+      
+  }
+
+  
+
+  .container-3 {
+  display: flex;
+  flex-wrap: wrap;
+  
+	}
+}
+.container-1 div,
+.container-3 div {
+  border: 1px #ccc solid;
+  padding: 10px;
+  font-family: almanach, sans-serif;
+}
+
+.box-1 {
+  flex: 2;
+  order: 1;
+}
+
+.box-2 {
+  flex: 1;
+  order: 2;
+}
+
+.box-3 {
+  flex: 1;
+  order: 3;
+}
+
+
+
+.container-3-box {
+  flex-basis: 14%;
+}
+
+
+.some-page-wrapper {
+  margin: 15px;
+ 
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+	border: 1px #000000 solid;
+  
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  flex: 1;
+	border: 2px #000000 solid;
+  
+}
+
+.orange-column {
+  background-color: orange;
+  font-family: almanach, sans-serif;
+  height: 100px;
+}
+
+.blue-column {
+  background-color: blue;
+  height: 100px;
+  font-family: almanach, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+
+
+}
+
+.green-column {
+  background-color: green;
+  font-family: almanach, sans-serif;
+  height: 100px;
+}
+
+.images{
+	display: flex;
+	
+}
+
+.box1{
+	flex: 1
+}
+
+.box2{
+	flex:1
+}
+
+.box3{
+	flex:1
+}
+
+.box4{
+	flex:1
+}
+
+header{
+	width:100%;
+	height:100px;
+}
+
+header h2{
+	font-size: 55px;
+	font-family: haboro-contrast-normal, sans-serif;
+	font-weight: 200;
+	font-style: normal;
+	text-align: center;
+	color: rgba(0,0,0,1.00)
+		
+	
+}
