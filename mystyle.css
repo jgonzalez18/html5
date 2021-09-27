@@ -1,7 +1,6 @@
 @charset "UTF-8";
 /* CSS Document */
-@media(min-width:468px) {  
-  .container-1 {
+@media(min-width:468px) {.container-1 {
     display: flex;
     /*
       align-items:flex-end;
@@ -103,31 +102,27 @@
 
 .box1{
 	flex: 1;
-	flex:50%;
+	
 	
 }
 
 .box2{
 	flex:1;
-	flex:50%;
+	
 	
 }
 
 .box3{
 	flex:1;
-	flex:50%;
+	
 }
 
 .box4{
 	flex:1;
-	flex:50%;
+	
 }
 	
-	/* Responsive layout - makes a one column layout instead of a two-column layout */
-@media (max-width: 800px) {
-  .box1, .box2, .box3, .box4 {
-    flex: 100%;
-  }
+
 
 header{
 	width:100%;
@@ -143,4 +138,7 @@ header h2{
 	color: rgba(0,0,0,1.00)
 	}
 	
+
 }
+  
+  
