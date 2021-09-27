@@ -19,7 +19,7 @@
   flex-wrap: wrap;
   
 	}
-}
+
 .container-1 div,
 .container-3 div {
   border: 1px #ccc solid;
@@ -127,6 +127,6 @@ header h2{
 	font-style: normal;
 	text-align: center;
 	color: rgba(0,0,0,1.00)
-		
+	}
 	
 }
