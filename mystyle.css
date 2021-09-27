@@ -1,6 +1,8 @@
 @charset "UTF-8";
 /* CSS Document */
-@media(min-width:468px) {.container-1 {
+@media(min-width:468px) {
+	
+.container-1 {
     display: flex;
     /*
       align-items:flex-end;
